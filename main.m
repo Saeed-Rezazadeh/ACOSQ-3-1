@@ -9,7 +9,7 @@ close all
 FileID = fopen ('Results.txt' , 'a') ;
 
 %% Source distributions
-sigma = 1 ;  % the standard devision of the sources
+sigma = 1 ;  % the standard devision of the source
 mu = 0 ; % the source's mean value
 alpha = 300000  ; % the size of the training set to find the initial codebook using the splitting algorithm
 
